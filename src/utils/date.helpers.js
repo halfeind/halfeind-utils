@@ -39,14 +39,14 @@ export const getMonthName = (monthNumber) => {
     let month = months[monthNumber];
     return month;
 }
-export const getCurrentDay = (dayNumber) => {
+export const getDay = (dayNumber) => {
     if(typeof dayNumber !== 'number') throw Error(`variable : "${dayNumber}" should be a number.` );
     if(dayNumber<0||dayNumber>6) throw Error("variable should be between 0-6.");
 
     let day = days[dayNumber];
     return day;
 }
-export const getCurrentDayName = () => {
+export const getCurrentDay = () => {
     let dayNumber = date.getDay();
     dayNumber = dayNumber===0 ? 6 : dayNumber-1;
     let day = days[dayNumber];
