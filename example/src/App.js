@@ -4,7 +4,7 @@ import { getDayByDate } from 'halfeind-utils'
 
 export default class App extends Component {
   render () {
-    console.log(getDayByDate(1,3,2019));
+    console.log(getDayByDate(5,1,2020));
     return (
       <></>
     )
