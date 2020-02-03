@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-import { getCurrentDayName } from 'halfeind-utils'
+import { getDayByDate } from 'halfeind-utils'
 
 export default class App extends Component {
   render () {
-    console.log(getCurrentDayName());
+    console.log(getDayByDate(1,3,2019));
     return (
       <></>
     )
