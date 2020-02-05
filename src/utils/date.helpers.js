@@ -48,7 +48,7 @@ export const getDayByDayNumber = (dayNumber) => {
 }
 export const getDayByDate = (month, dayOfMonth, year) =>{
     let dateString;
-    if(typeof month === 'number') if(month<0||month>11) throw Error("variable should be between 0-11."); else dateString = months[month-1].name + ' ' + dayOfMonth +',' + year;
+    if(typeof month === 'number') if(month<0||month>11) throw Error("variable should be between 0-11."); else dateString = months[month].name + ' ' + dayOfMonth +',' + year;
     else if(typeof month === 'string') dateString = month + ' ' + dayOfMonth +',' + year;
     else throw Error(`variable : "${month}" is not a number or a string.` );
 
