@@ -63,6 +63,7 @@ export const getCurrentDay = () => {
     let dayNumber = date.getDay();
     dayNumber = dayNumber===0 ? 6 : dayNumber-1;
     let day = days[dayNumber];
+    day['date'] = date.getDate();
     return day;
 }
 export const daysInMonth = (monthNumber, year) => {

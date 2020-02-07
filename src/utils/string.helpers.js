@@ -1,4 +1,4 @@
-export const Acronym = (str) => {
+export const acronym = (str) => {
     let acronym = str.match(/\b(\w)/g); 
     return acronym;
 }
@@ -6,7 +6,7 @@ export const isEmpty = (str) => {
     let isEmpty = (!str || 0 === str.length);
     return isEmpty;
 }
-export const RandomString = (length)=>{
+export const randomString = (length)=>{
     var string           = '';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var charactersLength = characters.length;
