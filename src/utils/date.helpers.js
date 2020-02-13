@@ -13,13 +13,13 @@ const months =[
     {numb: 11, name: 'December', shortName: 'Dec'},
 ];
 const days =[
-    {numb: 0, name: 'Monday', shortName: 'Mon'},
-    {numb: 1, name: 'Tuesday', shortName: 'Tue'},
-    {numb: 2, name: 'Wednesday', shortName: 'Wed'},
-    {numb: 3, name: 'Thursday', shortName: 'Thu'},
-    {numb: 4, name: 'Friday', shortName: 'Fri'},
-    {numb: 5, name: 'Saturday', shortName: 'Sat'},
-    {numb: 6, name: 'Sunday', shortName: 'Sun'},
+    {numb: 0, name: 'Monday', shortName: 'Mo'},
+    {numb: 1, name: 'Tuesday', shortName: 'Tu'},
+    {numb: 2, name: 'Wednesday', shortName: 'We'},
+    {numb: 3, name: 'Thursday', shortName: 'Th'},
+    {numb: 4, name: 'Friday', shortName: 'Fr'},
+    {numb: 5, name: 'Saturday', shortName: 'Sa'},
+    {numb: 6, name: 'Sunday', shortName: 'Su'},
 ];
 
 const date = new Date();

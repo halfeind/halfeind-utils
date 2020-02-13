@@ -4,8 +4,7 @@ import { getCurrentYear, getCurrentMonth, getMonthName, getCurrentDay, getDayByD
 
 
 export { 
-randomHexColor, contrastColor,hsvToRgb, hsvToHsl, rgbToHsv, hexToRgb, rgbToHex, hslToRgb,
-acronym, isEmpty, randomString,
-getCurrentYear, getCurrentMonth, getMonthName, getCurrentDay, getDayByDayNumber, getDayByDate, daysInMonth, daysInCurrentMonth
-
+    randomHexColor, contrastColor,hsvToRgb, hsvToHsl, rgbToHsv, hexToRgb, rgbToHex, hslToRgb,
+    acronym, isEmpty, randomString,
+    getCurrentYear, getCurrentMonth, getMonthName, getCurrentDay, getDayByDayNumber, getDayByDate, daysInMonth, daysInCurrentMonth
 };

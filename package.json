@@ -1,6 +1,6 @@
 {
   "name": "halfeind-utils",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.1",
   "description": "HalfEinds utils",
   "author": "halfeind",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },
+  "typings": "./src/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-external-helpers": "^7.8.3",
