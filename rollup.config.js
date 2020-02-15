@@ -6,6 +6,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import url from '@rollup/plugin-url'
 import svgr from '@svgr/rollup'
 import minify from 'rollup-plugin-babel-minify';
+import copy from 'rollup-plugin-copy'
 
 import pkg from './package.json'
 
@@ -37,5 +38,10 @@ export default {
     }),
     resolve(  ),
     commonjs(),
+    copy({
+      targets: [
+        { src: 'src/index.d.ts', dest: 'dist' }
+      ]
+    })
   ]
 }

@@ -13,6 +13,7 @@ export function hslToRgb(h: string, s: string, l: string): object;
 export function acronym(str: string): string;
 export function isEmpty(str: string): boolean;
 export function randomString(length: number): string;
+export function isEmail(str: string): boolean;
 
 //Date
 export function getCurrentYear(): string;

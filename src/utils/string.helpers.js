@@ -15,3 +15,7 @@ export const randomString = (length)=>{
     }
     return string;
 }
+export const isEmail = (str)=>{
+    let mailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return mailRegex.test(str);
+}
