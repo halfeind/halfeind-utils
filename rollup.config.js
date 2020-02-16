@@ -8,6 +8,11 @@ import svgr from '@svgr/rollup'
 import minify from 'rollup-plugin-babel-minify';
 import copy from 'rollup-plugin-copy'
 
+// import * as react from 'react';
+// import * as reactDom from 'react-dom';
+// import * as reactIs from 'react-is';
+// import * as propTypes from 'prop-types';
+
 import pkg from './package.json'
 
 export default {
@@ -37,7 +42,16 @@ export default {
       //plugins: [ 'external-helpers' ]
     }),
     resolve(  ),
-    commonjs(),
+    commonjs(
+    //   {
+    //   namedExports: {
+    //     react: Object.keys(react),
+    //     'react-dom': Object.keys(reactDom),
+    //     'react-is': Object.keys(reactIs),
+    //     'prop-types': Object.keys(propTypes),
+    //   },
+    // }
+    ),
     copy({
       targets: [
         { src: 'src/index.d.ts', dest: 'dist' }
